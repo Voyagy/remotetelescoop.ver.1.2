@@ -1,0 +1,27 @@
+$(function(){
+  $('main').fadeIn(5500);
+  $('#background').slideDown(4500);
+  $('.stellus').hover(
+    function(){
+      $(this).find('.contents-message').fadeIn();
+    },
+    function(){
+      $(this).find('.contents-message').fadeOut();
+    });
+    $('.guest').hover(
+      function(){
+        $(this).find('.plofile').hide();
+        $(this).find('.guest-comment').slideDown(2000);
+      },
+      function(){
+        $(this).find('.guest-comment').hide();
+        $(this).find('.plofile').slideDown(2000);
+      }
+    );
+    $('#special').click(
+        function(){
+          $('.guest-3').hide();
+          $('.guest-s').show();
+        }
+    )
+  });

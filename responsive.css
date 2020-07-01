@@ -1,0 +1,67 @@
+
+@media(max-width: 1024px) {
+  body {
+    width: 1024px;
+  }
+  header {
+  height: auto;
+  width: 1024px;
+  }
+  div[class*="container"] {
+    width: 100%;
+  }
+  .header-logo img {
+    width: 50%;
+  }
+  h2 {
+      color: blue;
+    }
+  .guest-container {
+      height: 1600px;
+    }
+  footer {
+      width: 100%;
+    }
+}
+@media(max-width: 640px)  {
+  body {
+    width: 640px;
+  }
+  header, footer {
+    width: 640px;
+  }
+  div[class*= "container"], #vr{
+    width: 80%;
+  }
+  form, #adress, textarea {
+    width: 80%;
+  }
+  .header-right {
+    display:none;
+  }
+  .header-logo {
+    width: 25%;
+    height: 50%;
+  }
+  h1 {
+    text-align: left;
+  }
+  h2 {
+    color: #fff;
+  }
+  .stellus-container {
+    height: auto;
+  }
+  .stellus {
+    width: 100%;
+    flex: column;
+  }
+  .guest-prof {
+    width: 100%;
+    flex: column;
+    height: auto;
+  }
+  .guest-prof p {
+    font-size: 14px;
+  }
+}
